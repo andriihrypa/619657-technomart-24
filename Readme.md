@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Andrii Hrypa](https://up.htmlacademy.ru/htmlcss/24/user/619657).
-* Наставник: [Александр Бабченко] (https://htmlacademy.ru/profile/babtshe).
+* Наставник: [Александр Бабченко](https://htmlacademy.ru/profile/babtshe).
 
 ---
 
