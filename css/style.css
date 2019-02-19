@@ -26,7 +26,6 @@ body {
 .main-header-logo {
     background-color: #ee3643;
     border-bottom: 5px solid rgba(0, 0, 0, 0.24);
-    margin-bottom: 50px;
 }
 
 .main-header-logo:hover,
@@ -38,8 +37,8 @@ body {
     background-color: #ba2732;
 }
 
-.search-form{
-    display: inline-block;
+.search-form {
+    display: inline-block; /*  Временно  */
 }
 
 .search-form input {
@@ -93,4 +92,84 @@ body {
 
 .order:active {
     background-color: #518534;
+}
+
+.main-heading {
+    font-size: 16px;
+    line-height: 23px;
+    font-style: italic;
+    font-weight: normal;
+
+    color: #ee3643;
+}
+
+.header-contacts {
+    font-size: 14px;
+    line-height: 24px;
+
+    color: #32425c;
+    font-style: normal;
+}
+
+.phone-number {
+    font-size: 21px;
+    line-height: 21px;
+
+    color: #e9292a;
+    text-decoration: none;
+    font-style: normal;
+
+    border: 3px solid #ffffff;
+}
+
+.user-navigation {
+    list-style: none;
+}
+
+.user-navigation a {
+    font-size: 21px;
+    line-height: 21px;
+
+    color: #000000;
+    text-decoration: none;
+
+    background-color: #ffffff;
+}
+
+.user-navigation a:hover,
+.user-navigation a:focus {
+    color: #ee3643;
+}
+
+.user-navigation a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.main-navigation {    
+    background-color: #32425c;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+
+.site-navigation a {
+    font-size: 17px;
+    line-height: 17px;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    background-color: #32425c;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    background-color: #293449;
+}
+
+.site-navigation a:active {
+    color: rgba(255, 255, 255, 0.5);
+    background-color: #1d2739;
 }
