@@ -23,7 +23,8 @@ body {
     text-decoration: none;
 }
 
-.main-header-logo {
+.main-header-logo,
+.main-footer-logo {
     background-color: #ee3643;
     border-bottom: 5px solid rgba(0, 0, 0, 0.24);
 }
@@ -271,4 +272,114 @@ body {
     color: #ffffff;
 
     background-color: #ee3643;
+}
+
+.main-footer {
+    background-color: #32425c;
+}
+
+.footer-contacts {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.footer-contacts a {
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-site-navigation {
+    list-style: none;
+}
+
+.footer-site-navigation a {
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+
+    background-color: #32425c;
+}
+
+.footer-site-navigation a:hover,
+.footer-site-navigation a:focus {
+    text-decoration: underline;
+}
+
+.footer-site-navigation a:active {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-navigation {
+    list-style: none;
+}
+
+.footer-navigation a {
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #ffda96;
+    text-decoration: none;
+
+    background-color: #32425c;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus {
+    text-decoration: underline;
+}
+
+.footer-navigation a:active {
+    color: rgba(255, 209, 128, 0.5)
+}
+
+.footer-info {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+
+    background-color: #293449;
+}
+
+.footer-info b {
+    font-weight: normal;
+}
+
+.footer-social {
+    list-style: none;
+}
+
+.social-button {
+    background-color: #212a3a;
+}
+
+.social-button:hover,
+.social-button:focus,
+.social-button:active {
+    background-color: #ee3643;
+}
+
+.footer-link {
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #ffda96;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    text-decoration: underline;
+}
+
+.footer-link:active {
+    color: #ee3643;
+}
+
+.modal {
+    display: none;
 }
