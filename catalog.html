@@ -3,6 +3,10 @@
 	<head>
 		<meta charset="utf-8">
 		<title>HTML Academy: Техномарт</title>
+		<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i&amp;subset=cyrillic" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<header class="main-header">
@@ -11,9 +15,7 @@
 					<img src="img/logo-technomart.svg" width="110" height="18" alt="Логотип интернет-магазина «Техномарт»">
 				</a>
 				<form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-					<label class="visually-hidden" for="top-menu-search">
-						Поиск
-					</label>
+					<label class="visually-hidden" for="top-menu-search"></label>
 					<input type="search" name="search" id="top-menu-search" placeholder="Поиск:">					
 				</form>
 				<a class="bookmarks" href="#">Закладки: 0</a>
@@ -34,7 +36,7 @@
 				</address>
 				<a class="user" href="#">Равшан Джамшутович</a>
 				<a class="logout" href="#">Выйти</a>
-				<ul class="user-navigation">
+				<ul class="user-navigation-inner">
 					<li class="login-link">
 						<a href="#">Мои заказы</a>
 					</li>
@@ -274,7 +276,7 @@
 					</a>
 					<address class="footer-contacts">
 						г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-						<a class="phone-number" href="tel:+78125550555">
+						<a href="tel:+78125550555">
 							+7 (812) 555-05-55
 						</a>
 					</address>
